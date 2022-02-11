@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    
+    /* background-color: #0cf388;
+    border-bottom: solid gray 1px;
+    box-shadow: 0px 10px 18px  rgb(136, 10, 10); */
+}
+
+.container h3{
+    color:rgb(58, 56, 54);
+    cursor: pointer;
+    font-size: 32px;
+}
+nav{
+    
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: calc(100vh - 25px);
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.nav_links{
+    display: flex;
+    font-weight: 600;
+    font-size: large; 
+    justify-content:flex-end;
+    padding-right: 20px;
+    gap: 20px;
+    
+}
+ul{
+   list-style: none;
+   
+  
+}
+
+ul li a{
+    text-decoration: none;
+    color:cadetblue;
+    padding: 3px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+ul li a:hover{
+    background-color: rgb(255, 0, 191);
+    color: whitesmoke;
+}
+
+ul li a:active{
+    background-color: rgb(255, 0, 0);
+    color: whitesmoke;
+}
+
+/* Container Min */
+
+.container-min{
+    display: flex;
+    height: calc(100vh - 80px);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-min h2{
+    background-color: #130c0c;
+    color: white;
+    padding: 10px;
+    border-radius: 10px ;
+    box-shadow: 5px 10px 15px rgb(11, 24, 34);
+}
+
+.container-min h2:hover{
+    background-color: azure;
+    color: black;
+}
+
+.btn{
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px blue;
+    font-size: medium;
+    font-weight: 500;
+    background: rgb(18, 105, 131);
+    color: wheat;
+}
+
+.btn:hover{
+    background-color: aqua;
+    color: black;
+}
+
+#value{
+    font-size: 70px;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(41, 32, 32);
+}
